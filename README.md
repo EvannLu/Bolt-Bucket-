@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-boltbucket.gif
+<img src="images/boltbucket.gif" alt="Alternative text for bolt bucket gif" width="500"/>
 GIF created with ... 👉🏿 MacOS bulit-in screen recorder + ezgif.com (video to gif converter)
 
 ## Notes
