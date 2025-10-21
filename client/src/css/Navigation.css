@@ -1,0 +1,39 @@
+.site-header {
+    background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(10,10,10,0.75));
+    color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.6);
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 18px 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand-link { display: flex; align-items: center; gap: 0.5rem; color: #fff; text-decoration: none }
+.brand-link h1 { margin: 0; font-size: 1.6rem; letter-spacing: 0.75px; font-weight: 700; text-shadow: 0 1px 0 rgba(0,0,0,0.5) }
+.bolt-emoji { font-size: 1.4rem; opacity: 0.95 }
+
+.main-nav ul { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0 }
+.main-nav .nav-link {
+    color: #f8f8f8;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.15s ease, transform 0.12s ease;
+}
+.main-nav .nav-link:hover { background: rgba(255,255,255,0.04); transform: translateY(-2px) }
+
+@media (max-width: 640px) {
+    .nav-inner { flex-direction: column; align-items: stretch }
+    .main-nav ul { justify-content: center; gap: 0.5rem; }
+}
